@@ -1,7 +1,5 @@
-#1.Create the following directory structure. (Create empty files where necessary)
 
-#=> 
-mkdir hello one
+mkdir hello
 cd hello
 mkdir five
 cd five
@@ -21,35 +19,16 @@ touch d.txt
 mkdir three
 cd three
 touch e.txt
+
 mkdir four
-cd four 
+cd four
 touch access.log
-tree
 
-#2. Delete all the files having the .log extension
-#=>
-rm *.log
-
-#3.Add the following content to a.txt
-#=>
-cd one
+rm -R /home/sahil/hello/five/six/seven/*.log
+rm -R /home/sahil/hello/one/two/three/four/*.log
+cd /home/sahil/hello/one
 nano a.txt
-Unix is a family of multitasking, multiuser computer operating 
-systems that derive from the original AT&T Unix, development 
-starting in the 1970s at the Bell Labs research center by Ken 
-Thompson, Dennis Ritchie, and others.
-CTRL + X
-Y
-
-#4. Delete the directory named five.
-#=>
-rm -R five
-
-#5. Rename the one directory to uno.
-#=>
-mv one uno
-
-#6.Move a.txt to the two directory.
-#=>
-mv a.txt ./two
+rm -R /home/sahil/hello/five
+mv /home/sahil/hello/one /home/sahil/hello/uno
+mv /home/sahil/hello/uno/a.txt /home/sahil/hello/uno/two
 
