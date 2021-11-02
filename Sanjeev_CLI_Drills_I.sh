@@ -1,6 +1,6 @@
 #1.Create the following directory structure. (Create empty files where necessary)
 
-=> 
+#=> 
 mkdir hello one
 cd hello
 mkdir five
@@ -26,12 +26,12 @@ cd four
 touch access.log
 tree
 
-2. Delete all the files having the .log extension
-=>
+#2. Delete all the files having the .log extension
+#=>
 rm *.log
 
-3.Add the following content to a.txt
-=>
+#3.Add the following content to a.txt
+#=>
 cd one
 nano a.txt
 Unix is a family of multitasking, multiuser computer operating 
@@ -41,15 +41,15 @@ Thompson, Dennis Ritchie, and others.
 CTRL + X
 Y
 
-4. Delete the directory named five.
-=>
+#4. Delete the directory named five.
+#=>
 rm -R five
 
-5. Rename the one directory to uno.
-=>
+#5. Rename the one directory to uno.
+#=>
 mv one uno
 
-6.Move a.txt to the two directory.
-=>
+#6.Move a.txt to the two directory.
+#=>
 mv a.txt ./two
 
